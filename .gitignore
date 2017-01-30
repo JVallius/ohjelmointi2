@@ -12,6 +12,7 @@
 hs_err_pid*
 
 #src/com/jarkkovallius/ohjelmointi2/harjoitus3/*
+src/com/jarkkovallius/ohjelmointi2/testi
 .settings
 .classpath
 .project
