@@ -1,7 +1,7 @@
 package com.jarkkovallius.ohjelmointi2.harjoitus2;
 
 /**
-	Teht√§v√§ 1
+	Teht‰v‰ 1
 	
 	puhelinliittym‰n tietojen tallennusluokka
 		
