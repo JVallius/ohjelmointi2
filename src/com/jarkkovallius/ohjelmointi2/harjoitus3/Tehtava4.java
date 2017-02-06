@@ -8,24 +8,24 @@ import java.util.Scanner;
 Teht‰v‰	4	(Huom!	T‰st‰ teht‰v‰st‰	2	pistett‰)
 Kirjoita	pieni	noppapeli-ohjelma,	joka	toimii	seuraavien	ohjeiden	mukaisesti:
 
-a) Ohjelmassa	on	kahden	nopan	heitt‰mist‰	varten	metodi	heitaNoppia.	Metodi	
-palauttaa	nopille	arvotut	arvot	kahden	alkion	kokonaislukutaulukkona.	Metodin	
+a) Ohjelmassa	on	kahden	nopan	heitt‰mist‰	varten	metodi	heitaNoppia.	Metodi
+palauttaa	nopille	arvotut	arvot	kahden	alkion	kokonaislukutaulukkona.	Metodin
 otsikko	on	public static int[] heitaNoppia()
 
-b) Ohjelmassa	kaksi	pelaajaa	pelaa	toisiaan	vastaan.	Kumpikin	saa	valita	mit‰	peli‰	
+b) Ohjelmassa	kaksi	pelaajaa	pelaa	toisiaan	vastaan.	Kumpikin	saa	valita	mit‰	peli‰
 h‰n	pelaa.	Vaihtoehdot	ovat:	1)	summa,	2)	jono	ja	3)	pari.
-	
+
 c) Jos	pelaaja	pelaa	summaa,	niin	h‰n	saa	pisteikseen	noppien	summan.
 
-d) Jos	pelaaja	pelaa	jonoa,	niin	h‰nen	pit‰‰	saada	kaksi	per‰kk‰ist‰	numeroa.	Jos	
+d) Jos	pelaaja	pelaa	jonoa,	niin	h‰nen	pit‰‰	saada	kaksi	per‰kk‰ist‰	numeroa.	Jos
 h‰n	saa	ne,	niin	h‰n	saa	niiden	pisteet	kaksinkertaisena	+	6	pistett‰.
 
-e) Jos	pelaaja	pelaa	paria,	niin	h‰nen	pit‰‰	saada	kaksi	samaa	numeroa.	Jos	h‰n	saa	
+e) Jos	pelaaja	pelaa	paria,	niin	h‰nen	pit‰‰	saada	kaksi	samaa	numeroa.	Jos	h‰n	saa
 ne,	niin	h‰n	saa	niiden	pisteet	kolminkertaisena	+	6	pistett‰.
 
-f) Peli‰	pelataan	5	kierrosta	ja	sen	j‰lkeen	julistetaan	pelin	voittaja	metodin	
-kerroVoittaja avulla.	Joka	vaiheessa	kerrotaan	pelin	tilanne	metodin	
-kerroTilanne avulla.	
+f) Peli‰	pelataan	5	kierrosta	ja	sen	j‰lkeen	julistetaan	pelin	voittaja	metodin
+kerroVoittaja avulla.	Joka	vaiheessa	kerrotaan	pelin	tilanne	metodin
+kerroTilanne avulla.
  */
 public class Tehtava4 {
 	

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="ISO-8859-1">
     <file url="file://$PROJECT_DIR$/src/com/jarkkovallius/ohjelmointi2/harjoitus1/Harjoitus1T3.java" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/src/com/jarkkovallius/ohjelmointi2/harjoitus1/Harjoitus1T4.java" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/src/com/jarkkovallius/ohjelmointi2/harjoitus2/MobilePhoneSubscription.java" charset="ISO-8859-1" />
@@ -10,5 +10,8 @@
     <file url="file://$PROJECT_DIR$/src/com/jarkkovallius/ohjelmointi2/harjoitus3/Tehtava2.java" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/src/com/jarkkovallius/ohjelmointi2/harjoitus3/Tehtava3.java" charset="ISO-8859-1" />
     <file url="file://$PROJECT_DIR$/src/com/jarkkovallius/ohjelmointi2/harjoitus3/Tehtava4.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/com/jarkkovallius/ohjelmointi2/harjoitus4/Tehtava1.java" charset="ISO-8859-1" />
+    <file url="file://$PROJECT_DIR$/src/com/jarkkovallius/ohjelmointi2/harjoitus4/Tehtava2.java" charset="ISO-8859-1" />
+    <file url="PROJECT" charset="ISO-8859-1" />
   </component>
 </project>
