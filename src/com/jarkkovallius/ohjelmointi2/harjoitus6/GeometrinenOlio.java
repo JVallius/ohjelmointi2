@@ -1,4 +1,4 @@
-package com.jarkkovallius.ohjelmointi2.harjoitus5;
+package com.jarkkovallius.ohjelmointi2.harjoitus6;
 /**
  * Luokka GeometrinenOlio esittelee yksinkertaisen perusmallin
  * geometristen olioiden piirteille. Näiden avulla
@@ -8,7 +8,7 @@ package com.jarkkovallius.ohjelmointi2.harjoitus5;
  * @author Joku
  * @version 1.00 2011/3/17
  */
-public class GeometrinenOlio1 {
+public class GeometrinenOlio {
 	private String vari = "valkoinen";
 	private boolean taytetty;
 	private java.util.Date luontiPaiva;
@@ -16,7 +16,7 @@ public class GeometrinenOlio1 {
 /** Luodaan yleinen geometrinen olio oletusalustajalla
  *  värinä valkoinen, tyyppinä täytetty ja luotu nyt.
  */
-    public GeometrinenOlio1() {
+    public GeometrinenOlio() {
     	this.luontiPaiva = new java.util.Date();
     }
 
@@ -24,7 +24,7 @@ public class GeometrinenOlio1 {
      * @param vari Olion väri
      * @param taytetty totuusarvo onko olio täytetty vai ei.
      */
-    public GeometrinenOlio1(String vari, boolean taytetty) {
+    public GeometrinenOlio(String vari, boolean taytetty) {
     	this.luontiPaiva = new java.util.Date();
     	this.vari = vari;
     	this.taytetty = taytetty;

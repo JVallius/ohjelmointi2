@@ -3,7 +3,7 @@ package com.jarkkovallius.ohjelmointi2.harjoitus5;
 /**
 
  Tehtävä	2
- a)	Kirjoita	luennolla	käsitellylle	luokalle	GeometrinenOlio1 aliluokka	Suunnikas.
+ a)	Kirjoita	luennolla	käsitellylle	luokalle	GeometrinenOlio aliluokka	Suunnikas.
 
  b)	Luokan	olion	suojatut	kentät	ovat	desimaaliluvut:	sivu1,	sivu2	ja	korkeus.
 
@@ -32,6 +32,4 @@ public class Tehtava2 {
         System.out.println("Pinta-ala: " + suunnikas.laskePintaAla());
 
     }
-
-
 }
