@@ -23,10 +23,10 @@ public class Tehtava2 extends Application {
     }
 
     @FXML
-    TextField textFieldCalculation ;
+    TextField textFieldCalculation;
 
     @FXML
-    TextField textFieldResult ;
+    TextField textFieldResult;
 
     @Override
     public void start(Stage primaryStage) throws IOException {
@@ -39,45 +39,39 @@ public class Tehtava2 extends Application {
     }
 
 
-
     @FXML
     public void onButtonPress(ActionEvent actionEvent) {
-        System.out.println("onButtonPress");
         if (actionEvent.getSource() instanceof Button) {
             Button button = (Button) actionEvent.getSource();
-            //System.out.println("button=" + button.getText());
-
             if (button.getText().equals("C")) {
-                // clear
+                // C button press
                 textFieldCalculation.setText("");
                 textFieldResult.setText("");
-
             } else if (!button.getText().equals("=")) {
+                // 0-9 number button press
                 textFieldCalculation.setText(textFieldCalculation.getText() + button.getText());
-
             } else {
+                // = button press
                 textFieldResult.setText(calculate(textFieldCalculation.getText()));
             }
         }
-
     }
 
 
-
     private String calculate(String text) {
-        char [] operators = {'+', '-', '*', '/'};
+        char[] operators = {'+', '-', '*', '/'};
 
-        System.out.println("text="+text);
-        double result = 0 ;
-        String [] numberArray ;
-        int operatorIndex = -1 ;
+        System.out.println("text=" + text);
+        double result = 0;
+        String[] numberArray;
+        int operatorIndex = -1;
 
 
         // find operator
         for (int i = 0; i < operators.length; i++) {
             if (text.contains(String.valueOf(operators[i]))) {
-                operatorIndex = i ;
-                break ;
+                operatorIndex = i;
+                break;
             }
         }
 
@@ -85,7 +79,7 @@ public class Tehtava2 extends Application {
         if (operatorIndex != -1) {
 
             // split text string
-            String s = "["+ String.valueOf(operators[operatorIndex]) + "]" ;
+            String s = "[" + String.valueOf(operators[operatorIndex]) + "]";
             numberArray = text.split(s);
 
             // calculate
@@ -93,24 +87,20 @@ public class Tehtava2 extends Application {
             Integer secondNumber = Integer.parseInt(numberArray[1]);
 
             switch (operatorIndex) {
-                case 0 : // +
-                    result = firstNumber + secondNumber ;
-                    break ;
-                case 1 : // -
-                    result = firstNumber - secondNumber ;
-                    break ;
-                case 2 : // *
-                    result = firstNumber * secondNumber ;
-                    break ;
-                case 3 : // /
-                    result = firstNumber / (double)secondNumber ;
-                    break ;
+                case 0: // +
+                    result = firstNumber + secondNumber;
+                    break;
+                case 1: // -
+                    result = firstNumber - secondNumber;
+                    break;
+                case 2: // *
+                    result = firstNumber * secondNumber;
+                    break;
+                case 3: // /
+                    result = firstNumber / (double) secondNumber;
+                    break;
             }
-
         }
-
-
-
         return String.valueOf(result);
     }
 }

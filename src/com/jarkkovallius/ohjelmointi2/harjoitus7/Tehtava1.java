@@ -24,10 +24,7 @@ public class Tehtava1 {
         oliot[1] = new Ympyra(200);
         oliot[2] = new Suorakulmio(99, 88);
         oliot[3] = new Suorakulmio(77, 66);
-
         System.out.println("alojen summa="+ alaSumma(oliot));
-
-
     }
 
     public static double alaSumma(GeometrinenOlio[] a) {
@@ -39,9 +36,6 @@ public class Tehtava1 {
                 summa += ((Suorakulmio)o).getAla();
             }
         }
-
         return summa;
     }
-
-
 }
