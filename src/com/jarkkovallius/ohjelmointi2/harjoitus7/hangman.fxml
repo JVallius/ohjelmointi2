@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="350.0" layoutY="50.0" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Line endX="200.0" startX="-200.0" />
+            <Line endX="200.0" endY="100.0" startX="200.0" />
+            <Line endX="-200.0" endY="500.0" startX="-200.0" />
+            <Line startX="-200.0" startY="200.0" />
+         </children>
+      </Pane>
+      <Pane layoutX="550.0" layoutY="150.0" prefHeight="336.0" prefWidth="276.0">
+         <children>
+            <Line endY="200.0" />
+            <Line endX="100.0" endY="100.0" startX="-100.0" startY="100.0" />
+            <Line endX="-100.0" endY="300.0" startY="200.0" />
+            <Line endX="100.0" endY="300.0" startY="200.0" />
+            <Circle fill="DODGERBLUE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
